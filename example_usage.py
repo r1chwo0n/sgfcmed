@@ -8,7 +8,7 @@ print prototypes, membership matrix, and predict cluster of new strings.
 """
 
 import random
-from sgfcmed_parallel import SGFCMedParallel  # Import the clustering class
+from sgfcmed.sgfcmed_parallel import SGFCMedParallel  # Import the clustering class
 
 if __name__ == "__main__":
     # Set random seed for reproducibility
